@@ -10,7 +10,12 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 firebase.initializeApp({
-  firebasecrendtials
+  apiKey: "AIzaSyCvR-Gt2ijlXgbAbXGHd7CaFDvv_ENUsMY",
+  authDomain: "chat-room-15383.firebaseapp.com",
+  projectId: "chat-room-15383",
+  storageBucket: "chat-room-15383.appspot.com",
+  messagingSenderId: "623821995586",
+  appId: "1:623821995586:web:fcbb71ed7f00ce7b0ef7db"
 })
 
 const auth = firebase.auth();
